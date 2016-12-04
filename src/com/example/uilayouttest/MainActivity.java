@@ -19,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState); 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "MainActivity starting...lim--李敏"+ this.getTaskId());
+        Log.d(TAG, "MainActivity starting...lim--李敏---good"+ this.getTaskId());
         
         Button btn1 = (Button) findViewById(R.id.send);
         btn1.setOnClickListener(new OnClickListener() {
